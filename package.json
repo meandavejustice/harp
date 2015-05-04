@@ -1,0 +1,17 @@
+{
+  "name": "harp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chroma-js": "^0.7.2",
+    "tinygradient": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "watchify -o bundle.js -v -d index.js & http-server -c-1"
+  },
+  "author": "meandave",
+  "license": "ISC"
+}
